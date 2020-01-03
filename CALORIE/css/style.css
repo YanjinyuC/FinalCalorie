@@ -1,0 +1,323 @@
+body { 
+  /*background-color: azure;*/
+	background-image: url(../images/grape.jpg);
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+header.top {
+  margin: 10px 10px 0px 10px;
+  height:           108px;
+}
+
+header.top img#headerSlogan {
+	float: right;
+}
+
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+div#landing{
+	margin:80px 50px ;
+}
+
+#landing label{
+	font-size: 150%;
+}
+div#landing1{
+	text-align: center;
+}
+
+section#drinks {
+    display: table-cell;
+   /* background-color: aliceblue ;*/
+	background-image: url(../images/back2.png);
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* added section#blog for blog */
+section#main, section#blog {
+  display: table-cell;
+  background:      /* #00ffffff*/  url(../images/back1.png) top left;
+  background-image-width:600px;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside {
+  display: table-cell;
+  background:     /*  #00ffffff*/  url(../images/back3.png) bottom right;
+  width: 20%;
+  font-size:        105%;line-height:2.5em;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside h1{
+	font-size:20px;
+	color:#954B4B;
+	height:40px;
+/*	line-height:2.5em;*/
+	padding-left:20px;
+	border-bottom:1px solid #F6F6F6;
+}
+
+input{
+	height:25px;
+	width:250px;
+	border: 2px solid #ddd;
+	border-radius:5px;
+}
+#confirm{
+	font-size: 150%;
+	text-align: right;
+	margin-right: 50px;
+}
+aside textarea{
+	width:96%;
+	height:100px;
+	border: 2px solid #ddd;
+	border-radius:5px;
+}
+#submit {
+	width: 50px;
+	margin-left: 200px;
+}
+#submit1 {
+	width: 100px;
+	font-size: 15px;
+	background-color:#F6F0F0;
+}
+footer {
+  /*background-color: #675c47;*/
+  background-image: url(../images/back4.png);
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        200%;
+  color:            #954b4b;
+	border-bottom:1px solid #F6F6F6;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+
+nav {
+   /* background-color: #00ffffff;*/
+	margin: 10px 10px 0px 10px;
+	font-size: 2em;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+#main h1{
+	font-size:20px;
+	color:#954b4b;
+	height:40px;
+	line-height:2.5em;
+	padding-left:20px;
+	border-bottom:1px solid #F6F6F6;
+}
+
+#food,#data,#warning{
+	padding:50px 10px 50px 300px;
+	margin:0px 50px;
+}
+#sport,#community{
+	padding:50px 300px 50px 10px;
+	margin:0px 50px;
+}
+#food{
+	background-image: url("../images/food.png");
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+#sport{
+	background-image: url("../images/sport.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#data{
+	background-image: url("../images/data.png");
+	background-repeat: no-repeat;
+}
+#community{
+	background-image: url("../images/community.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#warning{
+	background-image: url("../images/warning.png");
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+#drinks p{
+	font-size:20px;
+	text-align: center;
+}
+/*图片轮播*/
+ #slides {
+	  margin:30px;
+      display: none;
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+    #lemon{
+     position:fixed;
+     left:0px;
+     top:390px;
+     }
+     #lemon img{
+	 width: 100px;
+     }

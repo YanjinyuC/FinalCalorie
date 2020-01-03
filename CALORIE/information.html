@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyWeb - 个人信息</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/information.css">
+  </head>
+  <body>
+    <header class="top">
+      <img id="headerLogo"
+           src="images/logo.png" alt="Starbuzz Coffee header logo image" 
+		   width=229px;>
+      <img id="headerSlogan"
+          src="images/background.gif" alt="Providing all the caffeine you need to power your life." height=100px;>
+    </header>
+	  
+	<nav>
+	<ul>
+		<li><a href="index.html">主页</a></li>
+		<li><a href="land.html">登录</a></li>
+		<li><a href="about.html">关于</a></li>
+		<li class="selected"><a href="information.html">个人</a></li>
+		<li><a href="app.html">App</a></li>
+	</ul>
+	</nav>
+	  
+    <h1>个人信息</h1>
+    <h2>请填写下列信息</h2>
+
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+	<fieldset>
+		<legend>基本信息：</legend>
+		<div class="tableRow">
+			<label for="name">姓名:</label>
+			<input type="text" id="name" name="name" value="" placeholder="实名" required> 
+		</div>
+		<div class="tableRow">
+			<label for="sex">性别:</label>
+            <select id="sex" name="sex">
+              <option value="House Blend">男</option>
+              <option value="Bolivia">女</option>
+            </select>
+		</div>
+		<div class="tableRow">
+			<label for="school">学校:</label>
+			<input type="text" id="school" name="school" value="" placeholder="认证学校" required> 
+		</div>
+		<div class="tableRow">
+			<label for="studentid">学号:</label>
+			<input type="text" id="studentid" name="studentid" value="" placeholder="实际学号" required> 
+		</div>
+		<div class="tableRow">
+			<label for="age">年龄:</label>
+			<input type="number" id="age" name="age" min="0">
+		</div>
+		<div class="tableRow">
+			<label for="height">身高:</label>
+			<input type="text" name="height">
+		</div>
+		<div class="tableRow">
+			<label>体重:</label>
+			<input type="text" name="weight">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>附加信息</legend>
+		<div class="tableRow">
+			<label for="aimweighe">目标体重:</label>
+			<input type="text" id="aimweighe" name="aimweighe" value="" placeholder="你的目标体重" required> 
+		</div>
+		<div class="tableRow">
+			<label for="period">预期时长:</label>
+			<input type="text" id="period" name="period" value="" placeholder="你希望多长时间达到目标" required> 
+		</div>
+		<div class="tableRow">
+			<label>爱好:</label>
+			<input type="text" name="hobby" value="" placeholder="你的爱好">
+		</div>
+		<div class="tableRow">
+			<label>联系方式:</label>
+			<input type="text" name="contact">
+		</div>
+		<div class="tableRow">
+			<label for="comments">个性宣言:</label>
+            <textarea id="comments" name="comments"></textarea>
+		</div>
+		<div class="tableRow">
+			<label></label>
+			<input type="submit" value="提交">
+		</div>
+	</fieldset>
+    </form>
+	  
+	<footer>
+      &copy; 2019, s206 F4
+      <br>
+      组员：赵维 宋青青 杨红茶 严近雨<br>指导教师：孙娜
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,29 @@
+body{
+      font-famliy:Arial,sans-serif;
+      font-weight:bold;
+      color:#333333;
+      
+      line-height:3.5em;
+      background-image:url(../images/qqq.png);
+ 
+      background-position:center;
+      padding:30px;
+      margin-left:400px;
+      margin-right:400px;
+     }
+article{
+   text-align: center;
+   background-image:url(../images/ttt.jpg);
+}
+em{
+     font-size:200%;
+}
+#getplan{
+     position:fixed;
+     left:0px;
+     top:390px;
+}
+#getplan img
+{
+  width: 100px;
+}
